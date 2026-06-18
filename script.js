@@ -6,6 +6,9 @@ button.addEventListener("click", function() {
     // 1. Write a conditional statement:
     //  - If the input is "rainy", change the text in the paragraph tag to "Bring an umbrella!"
     //  - Else, change the text in the paragraph tag to "Enjoy the sun!"
-
+    output = document.querySelector(".output").innerHTML;
+    if(weather === "rainy"){
+        output = "Bring an umbrealla!"
+    }
 
 });
